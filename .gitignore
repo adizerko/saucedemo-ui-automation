@@ -1,0 +1,40 @@
+
+---
+
+## **.gitignore**
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+.venv/
+venv/
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# Selenium / WebDriver
+chromedriver*
+geckodriver*
+*.log
+*.tmp
+
+# Allure results
+allure_results/
+allure-report/
+
+# OS
+.DS_Store
+Thumbs.db
