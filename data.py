@@ -1,2 +1,14 @@
-username = 'standard_user'
-password = 'secret_sauce'
+"""Тестовые данные проекта SauceDemo.
+
+Содержит учетные данные пользователей (логин, пароль) и другие данные для тестов.
+"""
+
+# Логин и пароль для входа
+USERNAME = "standard_user"
+PASSWORD = "secret_sauce"
+
+# Словарь с браузерами и их версиями
+BROWSERS = {
+    "chrome": ["128.0", "127.0"],
+    "firefox": ["125.0", "124.0"],
+}
